@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 16px;    
+    color: darkorange;
+}
+.image-container {
+    width: 100%; /* Задає ширину батьківського контейнера */
+    height: 200px; /* Задає висоту батьківського контейнера */
+    overflow: hidden; /* Обрізає зайві частини фото */
+    margin: auto; /* Центрує контейнер */
+  }
+  .image-in{
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+  }
+  img {
+    width: 100%; /* Забезпечує розтягнення фото на всю ширину контейнера */
+    height: 100%; /* Забезпечує розтягнення фото на всю висоту контейнера */
+    object-fit: cover; /* Забезпечує обрізання фото під розмір контейнера */
+    display: block; /* Робить фото блочним елементом, щоб уникнути пробілів */
+    margin: 0; /* Видаляє зовнішні відступи фото */
+  }
+  .styleText{
+    margin-left: 25%;
+    width:50% ;
+}
+.underline {
+    text-decoration: underline;
+  }
+h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+p{
+     
+    font-size: 18px;
+    
+}
+  
